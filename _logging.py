@@ -77,10 +77,3 @@ def __setupLogger(name="main", lvl=logging.DEBUG, logFile="python.log"):
     logger.addHandler(fh)
     logger.addHandler(ch)
     return logger
-
-
-def main():
-    pass
-
-if __name__ == '__main__':
-    main()
